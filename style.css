@@ -1,0 +1,72 @@
+.body{
+width: 300px;
+height: 500px;
+justify-content: center;
+border: 1PX solid rgb(102, 190, 15);
+border-radius: 5%;
+justify-content: center;
+margin: auto;
+background: radial-gradient( rgb(199, 232, 16), rgb(46, 242, 7), rgb(232, 6, 6), rgb(55, 6, 232));
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: blue;
+}
+h2{
+    text-align: center; 
+    font-family: sans-serif;
+    color: blue;
+} 
+label{
+    font-family: serif;
+}
+.head{
+    text-align: center;
+}
+.name, .pass{
+    border-color: blue;
+    border-radius: 5%;
+    height: 30px;
+    width: 250px;
+}
+.flex{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+.sub{
+    margin-top: 10px;
+}
+button{
+    color: white;
+    background-color: blue;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+}
+.or{
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.create{
+    margin-top: 10px;
+}
+.tap{
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+}
+/* @media (max-width:688px) {
+    .body{
+        width: 90%;
+        height: 500PX;
+        justify-content: center;
+        border: 1PX solid rgb(102, 190, 15);
+        border-radius: 5%;
+        justify-content: center;
+        margin: auto;
+        background: radial-gradient( rgb(199, 232, 16), rgb(46, 242, 7), rgb(232, 6, 6), rgb(55, 6, 232));
+        }
+} */
